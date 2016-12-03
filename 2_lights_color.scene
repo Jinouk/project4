@@ -1,0 +1,36 @@
+camera 1000
+
+sphere
+  dimension .5
+  center .52 0 -4
+  color .4 .6 .6
+  reflectivity .6
+
+sphere
+  dimension .5
+  center -.52 0 -4
+  color .8 .4 .6
+  reflectivity .6
+
+sphere
+  dimension .5
+  center 0 .857 -4
+  color .4 .8 .6
+  reflectivity .6
+
+plane
+  dimension 4 4
+  center 0 -1 -4
+  normal 0 1 0
+  headup 0 0 1
+  reflectivity 1
+  color .5 .5 .5
+
+
+light
+  location -1 2 -3
+  color 1 .7 .7
+
+light
+  location 1 0 -4
+  color .7 .7 1
